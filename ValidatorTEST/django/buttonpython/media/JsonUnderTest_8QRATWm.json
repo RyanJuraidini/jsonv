@@ -1,0 +1,1923 @@
+{
+    "event": {
+        "commonEventHeader": {
+            "domain": "measurementsForVfScaling",
+            "eventId": "002-0000000013",
+            "eventName": "Mfvs_Ieccf_vnfMeasurements",
+            "lastEpochMicrosec": 1543010400000000,
+            "priority": "Normal",
+            "reportingEntityId": "0c007b54-21b6-4d87-a848-34000a52b5d6",
+            "reportingEntityName": "yljvestestvm001plt001",
+            "sequence": 0,
+            "sourceName": "yljvestestv",
+            "startEpochMicrosec": 1543006800000000,
+            "version": 3.0
+        },
+        "measurementsForVfScalingFields": {
+            "additionalMeasurements": [
+                {
+                    "arrayOfFields": [
+                        {
+                            "name": "REC_RECV",
+                            "value": "0"
+                        },
+                        {
+                            "name": "REC_WRITE",
+                            "value": "0"
+                        },
+                        {
+                            "name": "REC_REJECT",
+                            "value": "0"
+                        }
+                    ],
+                    "name": "CDR_MEAS"
+                }
+            ],
+            "additionalObjects": [
+                {
+                    "objectInstances": [
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005052"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005052"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/dev/shm"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005052"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005052"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/sys/fs/cgroup"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "9612508"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "36920"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/eccfdata"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "9612508"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "36920"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/eccfdata"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3819736"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4062748"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "16924"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/oam"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4966320"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "764356"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/vendorpackages"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "5706048"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "24628"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/sncore"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871216"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6216"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/incoming4cdrsch"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3890004"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005052"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "115048"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/run"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3660760"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6060608"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "2068944"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "8118476"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "1530952"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/PLATsoftware"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3660752"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6060608"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "2068952"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1606900"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "270532"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/snsps"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4955712"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "774964"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/vendorpackages"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "5705844"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "24832"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/sncore"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4730472"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "5029504"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "20504"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/cust_use"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "7842304"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "1807124"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/PLATsoftware"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1792740"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "2030416"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "116488"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/var"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871260"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6172"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/incoming4cdrsch"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1606900"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "270532"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/snsps"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1809196"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "131472"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/run"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1870944"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6488"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/cdr_3"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/sys/fs/cgroup"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1870952"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6480"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/cdr_2"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "7410404"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "8125880"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "279664"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/snlog"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/sys/fs/cgroup"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1808628"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "2030416"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "100600"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/var"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1808652"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "2030416"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "100576"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/var"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "5705860"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "24816"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/sncore"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "7372148"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "8125880"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "317920"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/pgdataA"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871256"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6176"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/eccfdata"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871260"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6172"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/incoming4cdrsch"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871184"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6248"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/eccfdata"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/dev/shm"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4966320"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "764356"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/vendorpackages"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1808404"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "2030416"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "100824"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/var"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1940664"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "4"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/dev/shm"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "8118476"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "1530952"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/PLATsoftware"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871076"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6356"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/cdr"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1606900"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "270532"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/snsps"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3660772"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6060608"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "2068932"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3995188"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "3995188"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/dev"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "5706048"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "24628"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/sncore"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3349240"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6060608"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "2380464"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3995188"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "3995188"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/dev"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3995184"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "3995184"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/dev"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1606900"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "270532"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/snsps"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1871260"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6172"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/incoming4cdrsch"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "5706044"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "24632"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m005app001:/sncore"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4955708"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "774968"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/vendorpackages"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3342636"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6060608"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "2387068"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1870944"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "6488"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/cdr_1"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "9603844"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "45584"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/repsysdata"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1930800"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1930800"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/dev"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1746132"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "194536"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/run"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3890020"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "115036"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/run"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/sys/fs/cgroup"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4966320"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "6061632"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "764356"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/vendorpackages"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1606896"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1998672"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "270536"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/snsps"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1554152"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "2030416"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "355076"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/var"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "3890020"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "115036"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m003iox001:/run"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "8118476"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "1530952"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/PLATsoftware"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/sys/fs/cgroup"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "7836528"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "10190100"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "1812900"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m001plt001:/PLATsoftware"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1930800"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1930800"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/dev"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "4005056"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m004iox001:/dev/shm"
+                                }
+                            ]
+                        },
+                        {
+                            "objectInstance": {
+                                "counters": [
+                                    {
+                                        "name": "AVAIL",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "CAPACITY",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "KBYTES",
+                                        "value": "1940668"
+                                    },
+                                    {
+                                        "name": "USED",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "objectKeys": [
+                                {
+                                    "keyName": "MOUNTED_ON",
+                                    "keyValue": "m002plt001:/dev/shm"
+                                }
+                            ]
+                        }
+                    ],
+                    "objectName": "MsDiskMeas"
+                }
+            ],
+            "measurementInterval": 3600,
+            "measurementsForVfScalingVersion": 2.0
+        }
+    }
+}

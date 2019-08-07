@@ -1,0 +1,131 @@
+
+Schema validation failed for JSON object #1: Additional properties are not allowed ('sequencee' was unexpected)
+
+Failed validating 'additionalProperties' in schema['properties']['event']['properties']['commonEventHeader']:
+    {'additionalProperties': False,
+     'description': 'fields common to all events',
+     'properties': {'domain': {'description': 'the eventing domain '
+                                              'associated with the event',
+                               'enum': ['fault',
+                                        'heartbeat',
+                                        'measurementsForVfScaling',
+                                        'mobileFlow',
+                                        'other',
+                                        'sipSignaling',
+                                        'stateChange',
+                                        'syslog',
+                                        'thresholdCrossingAlert',
+                                        'voiceQuality'],
+                               'type': 'string'},
+                    'eventId': {'description': 'event key that is unique '
+                                               'to the event source',
+                                'type': 'string'},
+                    'eventName': {'description': 'unique event name',
+                                  'type': 'string'},
+                    'eventType': {'description': 'for example - '
+                                                 'applicationVnf, guestOS, '
+                                                 'hostOS, platform',
+                                  'type': 'string'},
+                    'internalHeaderFields': {'$ref': '#/definitions/internalHeaderFields'},
+                    'lastEpochMicrosec': {'description': 'the latest unix '
+                                                         'time aka epoch '
+                                                         'time associated '
+                                                         'with the event '
+                                                         'from any '
+                                                         'component--as '
+                                                         'microseconds '
+                                                         'elapsed since 1 '
+                                                         'Jan 1970 not '
+                                                         'including leap '
+                                                         'seconds',
+                                          'type': 'number'},
+                    'nfNamingCode': {'description': '4 character network '
+                                                    'function type, '
+                                                    'aligned with vnf '
+                                                    'naming standards',
+                                     'type': 'string'},
+                    'nfcNamingCode': {'description': '3 character network '
+                                                     'function component '
+                                                     'type, aligned with '
+                                                     'vfc naming standards',
+                                      'type': 'string'},
+                    'priority': {'description': 'processing priority',
+                                 'enum': ['High',
+                                          'Medium',
+                                          'Normal',
+                                          'Low'],
+                                 'type': 'string'},
+                    'reportingEntityId': {'description': 'UUID identifying '
+                                                         'the entity '
+                                                         'reporting the '
+                                                         'event, for '
+                                                         'example an OAM '
+                                                         'VM; must be '
+                                                         'populated by the '
+                                                         'ATT enrichment '
+                                                         'process',
+                                          'type': 'string'},
+                    'reportingEntityName': {'description': 'name of the '
+                                                           'entity '
+                                                           'reporting the '
+                                                           'event, for '
+                                                           'example, an '
+                                                           'EMS name; may '
+                                                           'be the same as '
+                                                           'sourceName',
+                                            'type': 'string'},
+                    'sequence': {'description': 'ordering of events '
+                                                'communicated by an event '
+                                                'source instance or 0 if '
+                                                'not needed',
+                                 'type': 'integer'},
+                    'sourceId': {'description': 'UUID identifying the '
+                                                'entity experiencing the '
+                                                'event issue; must be '
+                                                'populated by the ATT '
+                                                'enrichment process',
+                                 'type': 'string'},
+                    'sourceName': {'description': 'name of the entity '
+                                                  'experiencing the event '
+                                                  'issue',
+                                   'type': 'string'},
+                    'startEpochMicrosec': {'description': 'the earliest '
+                                                          'unix time aka '
+                                                          'epoch time '
+                                                          'associated with '
+                                                          'the event from '
+                                                          'any '
+                                                          'component--as '
+                                                          'microseconds '
+                                                          'elapsed since 1 '
+                                                          'Jan 1970 not '
+                                                          'including leap '
+                                                          'seconds',
+                                           'type': 'number'},
+                    'version': {'description': 'version of the event '
+                                               'header',
+                                'type': 'number'}},
+     'required': ['domain',
+                  'eventId',
+                  'eventName',
+                  'lastEpochMicrosec',
+                  'priority',
+                  'reportingEntityName',
+                  'sequence',
+                  'sourceName',
+                  'startEpochMicrosec',
+                  'version'],
+     'type': 'object'}
+
+On instance['event']['commonEventHeader']:
+    {'domain': 'fault',
+     'eventId': '001-0000000018',
+     'eventName': 'Fault_sbc_LssAcrTemporaryBufferOverload',
+     'lastEpochMicrosec': 1562318535456307,
+     'priority': 'High',
+     'reportingEntityId': '94cbd2d8-98bb-11e9-821b-3863bb40b56e',
+     'reportingEntityName': 'qrms2-oam-a',
+     'sequencee': 0,
+     'sourceName': 'qrms2-cfed-a',
+     'startEpochMicrosec': 1562318535456307,
+     'version': 3.0}

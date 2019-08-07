@@ -1,0 +1,1 @@
+{commonHeader} version domain eventName priority{faultFields} faultFieldsVersion eventSeverity eventSourceType alarmCondition specificProblem vfStatus{alarmAdditionalInformation} ADDITIONAL_TEXT ALARM_TYPE OBJECT_NAME PROBABLE_CAUSE

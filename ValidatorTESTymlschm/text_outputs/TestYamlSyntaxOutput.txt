@@ -1,0 +1,4 @@
+yaml.parser.ParserError: while parsing a block mapping
+  in "YamlUnderTest.yml", line 11139, column 1
+expected <block end>, but found '}'
+  in "YamlUnderTest.yml", line 11199, column 2

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamesnk" />
+    <meta name="twitter:title" content="JSON Schema Validator - Newtonsoft" />
+    <meta name="twitter:image" content="https://www.newtonsoft.com/content/images/twitterlogo.png" />
+
+        <meta name="twitter:description" content="An online, interactive JSON Schema validator" />
+        <meta name="description" content="An online, interactive JSON Schema validator" />
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>JSON Schema Validator - Newtonsoft</title>
+    
+    <link href="content/styles/validbundle.css" rel="stylesheet"/>
+
+    
+</head>
+<body>
+
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><i class="fa fa-shield"></i> JSON Schema Validator</a>
+            </div>
+            
+        </div>
+    </nav>
+
+    
+
+<style type="text/css">
+    /*avoid page reflow by making the scrollbar always visible */
+    html {
+        overflow-y: scroll;
+    }
+</style>
+
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            
+            <p>
+                ONAP Schemas
+            </p>
+        </div>
+    </div>
+</div>
+<br />
+
+<div style="padding-left:15px;padding-right:15px;" id="validation">
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="section-header">
+                <label for="schemas">Select schema:&nbsp;</label>
+                <select id="schemas" data-bind="value: selectedSchemaName" class="form-control">
+                    <optgroup label="General">
+                        <option value="">Empty schema</option>
+                        <option value="schemas/component.json">Schema Draft v7</option>
+                        <option value="/api/jsonschemastore/schema?schemaUrl=schema-draft-v6">Schema Draft v6</option>
+                        <option value="/api/jsonschemastore/schema?schemaUrl=schema-draft-v4">Schema Draft v4</option>
+                        <option value="/api/jsonschemastore/schema?schemaUrl=schema-draft-v3">Schema Draft v3</option>
+                    </optgroup>
+                    <optgroup label="SchemaStore.org" data-bind="foreach: schemaStoreCatalog">
+                        <option data-bind="value: '/api/jsonschemastore/schema?schemaUrl=' + encodeURIComponent(url), text: name"></option>
+                    </optgroup>
+                </select>
+                <span data-bind="visible: schemaFailedMessage" class="validation-message validation-failed"><i class="fa fa-close"></i> <span data-bind="text: schemaFailedMessage"></span></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="section-header">
+                <label for="json">Input JSON:</label>
+               <!--Validator error message or status-->
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <textarea id="schema" class="code" placeholder="Enter or paste your JSON Schema" cols="100" rows="15" data-bind="textInput: schemaText, codemirror:
+             { 'lineNumbers': true, 'mode': 'javascript', 'lint': { 'getAnnotations': schemaLint, 'async': true, 'delay': 100 }, 'gutters': ['CodeMirror-lint-markers'], 'lineWrapping': true }"></textarea>
+        </div>
+        <div class="col-md-6">
+            <textarea id="json" class="code" placeholder="Enter or paste the JSON you want to validate against the schema" cols="100" rows="15" data-bind="textInput: jsonText, codemirror:
+             { 'lineNumbers': true, 'mode': 'javascript', 'lint': { 'getAnnotations': jsonLint, 'async': true, 'delay': 100 }, 'gutters': ['CodeMirror-lint-markers'], 'lineWrapping': true }"></textarea>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">      
+            <div class="col-md-12">                  
+                    <dl class="dl-horizontal">
+                        <dt>Message:</dt>
+                        <dd> <!--Validator error message or status--></dd>
+                    </dl>
+            </div>
+            <form class="box" method="post" action="" enctype="multipart/form-data">
+                <div class="box__input">
+                  <input class="box__file" type="file" name="files[]"
+                   id="file" data-multiple-caption="{count} files selected" multiple /><br>
+                  <label for="file"><strong>Choose a file</strong>
+                    <span class="box__dragndrop"> or drag it here</span>:</label>
+                  <button class="box__button" type="submit">Upload</button>
+                </div>
+                <div class="box__uploading">Uploading&hellip;</div>
+                <div class="box__success">Done!</div>
+                <div class="box__error">Error! <span></span>.</div>
+              </form>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+    <script src="content/scripts/bundlecom.js"></script>
+
+    
+    <script src="content/scripts/bundlesun.js"></script>
+
+    <script src="content/scripts/bundlevalid.js"></script>
+
+    <script src="content/scripts/bundleint.js"></script>
+
+
+    <script type="text/html" id="errors-template">
+        <div data-bind="foreach: $data" class="error-container">
+            <dl class="dl-horizontal">
+                <dt>Message:</dt>
+                <dd data-bind="text: message" class="error-message"></dd>
+                <!-- ko if: $data.schemaId !== null -->
+                <dt>Schema path:</dt>
+                <dd data-bind="text: $root.buildSchemaPath($data)"></dd>
+                <!-- /ko -->
+            </dl>
+            <!-- ko if: childErrors.length > 0 -->
+            <div style="padding-left: 50px;" data-bind="template: { name: 'errors-template', data: childErrors }"></div>
+            <!-- /ko -->
+        </div>
+    </script>
+
+    <script type="text/javascript" src="Content2/ValidatorViewModel.js"></script>
+    <script type="text/javascript">
+        var vm = new Newtonsoft.ValidatorViewModel
+        ("NeKuzqt2KDnzudxvPIb5P4N_Ga2XBjKpX5eexbQhXxDdvK3ql08zjJpbDTKmEkKKNEKOkp4PYnOKLCO0cVB4kEU-OvQ1:ZFBpN3ovOuGpaxpplhLlZ0hfFml-mTKuUV4G653Av2lfK6BRxsdp2T3xmWkGkLvKgpSoemc1jsNb1ZWkDp5mk7SaUDM1");
+        vm.validationComplete = function () {
+            // delay so that GA records the page view first
+            setTimeout(function() {
+                if (window.ga) {
+                    window.ga('send', 'event', 'validation');
+                }
+            }, 1000);
+        };
+        vm.initialize();
+        ko.applyBindings(vm);
+    </script>
+
+    <script type="text/javascript">
+        var options = {
+            lineNumbers: false
+        };
+
+        Sunlight.highlightAll(options);
+    </script>
+
+    <script type="text/javascript">
+        function centerModal() {
+            $(this).css('display', 'block');
+            var $dialog = $(this).find(".modal-dialog");
+            var offset = ($(window).height() - $dialog.height()) / 2.5;
+            // Center modal vertically in window
+            $dialog.css("margin-top", offset);
+        }
+
+        $('.modal').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('.modal:visible').each(centerModal);
+        });
+    </script>
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-98352-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/vendor/jquery.ui.widget.js" type="text/javascript"></script>
+    <script src="js/jquery.iframe-transport.js" type="text/javascript"></script>
+    <script src="js/jquery.fileupload.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var files = $("#files");
+
+            $("#file").fileupload({
+                url: 'index.html',
+                dropZone: '#dropZone',
+                dataType: 'json',
+                autoUpload: false
+            }).on('fileuploadadd', function (e, data) {
+                //var fileTypeAllowed = /.\.(yml | json)$/i;
+                console.log(data);
+                //if(!fileTypeAllowed.test())
+            }).on('fileuploaddone', function (e, data) {
+
+            }).on('fileuploadprogressall', function (e, data) {
+                
+            });    
+        });
+    
+    
+    </script>
+
+</body>
+</html>

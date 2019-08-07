@@ -1,0 +1,56 @@
+{
+    "event": {
+        "commonEventHeader": {
+            "domain": "fault",
+            "eventId": "001-0000000018",
+            "eventName": "Fault_sbc_LssAcrTemporaryBufferOverload",
+            "lastEpochMicrosec": 1562318535456307,
+            "priority": "High",
+            "reportingEntityId": "94cbd2d8-98bb-11e9-821b-3863bb40b56e",
+            "reportingEntityName": "qrms2-oam-a",
+            "sequencee": 0,
+            "sourceName": "qrms2-cfed-a",
+            "startEpochMicrosec": 1562318535456307,
+            "version": 3.0
+        },
+        "faultFields": {
+            "alarmAdditionalInformation": [
+                {
+                    "name": "ADDITIONAL_INFOMATION",
+                    "value": "UUID=94cbd2d8-98bb-11e9-821b-3863bb40b56e"
+                },
+                {
+                    "name": "ADDITIONAL_TEXT",
+                    "value": "LSS_acrTemporaryBufferOverload"
+                },
+                {
+                    "name": "ALARM_TIME",
+                    "value": "20190705092215.0Z"
+                },
+                {
+                    "name": "ALARM_TYPE",
+                    "value": "qualityOfServiceAlarm"
+                },
+                {
+                    "name": "OBJECT_NAME",
+                    "value": "ManagedElement=oam"
+                },
+                {
+                    "name": "PROBABLE_CAUSE",
+                    "value": "systemResourcesOverload"
+                },
+                {
+                    "name": "SysUpTime",
+                    "value": "10731"
+                }
+            ],
+            "alarmCondition": "LSS_acrTemporaryBufferOverload",
+            "eventSeverity": "NORMAL",
+            "eventSourceType": "virtualMachine",
+            "faultFieldsVersion": 2.0,
+            "specificProblem": "LSS_acrTemporaryBufferOverload",
+            "vfStatus": "Active"
+        }
+    }
+}
+

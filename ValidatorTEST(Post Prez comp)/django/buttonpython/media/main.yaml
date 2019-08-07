@@ -1,0 +1,31 @@
+---
+#- name: Include vars of include yaml.
+##  include:  "{{ playbook_dir }}/include.yaml"
+#- name: deploy the database with value file
+#  command: "helm install --name nls --set nls.version={{ nls_version }}  -f /tmp/nls-value-kubefile.yaml /tmp/k8s.tar.gz"
+#  when: per_clu_ip == masterclu0_ip
+
+- name: print current time
+  debug: msg=" {{ lookup('pipe','date') }}"
+  
+- name: deploy the nls with value file
+  shell: python {{ remote_config }}/deploy-nls.py --config-file {{ remote_config }}/deploy-descriptor.json --cluster-hosts {{ remote_config }}/remotehostfile --base-url {{ remote_config }} deploy {{ masterclu0_ip }} --value-file /tmp/nls-value-kubefile.yaml {{ project }}
+  
+- name: copy ca-csr.json
+  copy:
+    dest: /tmp/hosts
+    mode: u=rw,g=r,o=r
+    content: |
+             192.168.10.27 nls-dpa-1.nls.nokia.com
+             192.168.10.28 nls-dpa-2.nls.nokia.com
+  when: per_clu_ip == masterclu0_ip
+
+- name: add Files Configserver
+  shell: python {{ remote_config }}/configure.py -d {{ remote_config }} conf-configserver
+
+#- name: scale kube-dns to 3
+#  command: "kubectl scale deploy kube-dns -n kube-system --replicas 3"
+
+- name: make master nodes schedulable
+  command: "kubectl taint nodes --all node-role.kubernetes.io/master-"
+  ignore_errors: yes

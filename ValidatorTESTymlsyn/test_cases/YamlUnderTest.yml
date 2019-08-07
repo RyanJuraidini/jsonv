@@ -1,0 +1,211 @@
+---
+# registration for Fault_sbc_140BACKPLANECONNECTIONDOWN
+# Constants: the values of domain,  priority,
+#            version, faultFields.alarmCondition, faultFields.eventSeverity,
+#            faultFields.faultFieldsVersion, faultFields.specificProblem,
+# Variables (to be supplied at runtime) include: eventId, startEpochMicrosec, lastEpochMicrosec, eventName,
+#            reportingEntityId, reportingEntityName, sequence, sourceId, sourceName, faultFields.eventSourceType,
+#            faultFields.vfstatus, faultFields.alarmAdditionalInformation
+event: {presence: required,
+structure: {
+    commonEventHeader: {presence: required, structure: {
+        domain: {presence: required, value: faulte},
+        eventName: {presence: required, value: Fault_sbc_140BACKPLANECONNECTIONDOWN},
+        eventId: {presence: required, value: 001-<id>},
+        priority: {presence: required, value: High},
+        reportingEntityId: {presence: required},
+        reportingEntityName: {presence: required},
+        sequence: {presence: required},
+        sourceId: {presence: optional},
+        sourceName: {presence: required},
+        nfNamingCode: {presence: optional},
+        nfcNamingCode: {presence: optional},
+        startEpochMicrosec: {presence: required},
+        lastEpochMicrosec: {presence: required},
+        version: {presence: required, value: 3.0}
+    }},
+    faultFields: {presence: required, structure: {
+        alarmCondition: {presence: required, value: "140BACKPLANECONNECTIONDOWN"},
+        eventSeverity: {presence: required, value: CRITICAL},
+        eventSourceType: {presence: required, value: virtualMachine},
+        faultFieldsVersion: {presence: required, value: 2.1},
+        specificProblem: {presence: required, value: "Backplane connection down"},
+        vfStatus: {presence: required, value: "Active"},
+    alarmAdditionalInformation: {presence: optional, array: [
+            field: {presence: required, structure: {
+                    name: {presence: required, value: SysUpTime},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ADDITIONAL_TEXT},
+                    value: {presence: required, value: 140BACKPLANECONNECTIONDOWN}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TIME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TYPE},
+                    value: {presence: required, value: Communications}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: OBJECT_NAME},
+                    value: {presence: required, value: ManagedElement=Media}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: PROBABLE_CAUSE},
+                    value: {presence: required, value: communicationsProtocolError}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_NAME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_UUID},
+                    value: {presence: required}
+            }}
+    ]}
+    }}
+}}
+...
+---
+# registration for Fault_sbc_140BACKPLANELINKDOWNBACKUPOK
+# Constants: the values of domain,  priority,
+#            version, faultFields.alarmCondition, faultFields.eventSeverity,
+#            faultFields.faultFieldsVersion, faultFields.specificProblem,
+# Variables (to be supplied at runtime) include: eventId, startEpochMicrosec, lastEpochMicrosec, eventName,
+#            reportingEntityId, reportingEntityName, sequence, sourceId, sourceName, faultFields.eventSourceType,
+#            faultFields.vfstatus, faultFields.alarmAdditionalInformation
+event: {presence: required,
+structure: {
+    commonEventHeader: {presence: required, structure: {
+        domain: {presence: required, value: fault},
+        eventName: {presence: required, value: Fault_sbc_140BACKPLANELINKDOWNBACKUPOK},
+        eventId: {presence: required, value: 001-<id>},
+        priority: {presence: required, value: High},
+        reportingEntityId: {presence: required},
+        reportingEntityName: {presence: required},
+        sequence: {presence: required},
+        sourceId: {presence: optional},
+        sourceName: {presence: required},
+        nfNamingCode: {presence: optional},
+        nfcNamingCode: {presence: optional},
+        startEpochMicrosec: {presence: required},
+        lastEpochMicrosec: {presence: required},
+        version: {presence: required, value: 3.0}
+    }},
+    faultFields: {presence: required, structure: {
+        alarmCondition: {presence: required, value: "140BACKPLANELINKDOWNBACKUPOK"},
+        eventSeverity: {presence: required, value: MINOR},
+        eventSourceType: {presence: required, value: virtualMachine},
+        faultFieldsVersion: {presence: required, value: 2.1},
+        specificProblem: {presence: required, value: "Backplane link down, backup ok"},
+        vfStatus: {presence: required, value: "Active"},
+    alarmAdditionalInformation: {presence: optional, array: [
+            field: {presence: required, structure: {
+                    name: {presence: required, value: SysUpTime},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ADDITIONAL_TEXT},
+                    value: {presence: required, value: 140BACKPLANELINKDOWNBACKUPOK}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TIME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TYPE},
+                    value: {presence: required, value: Communications}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: OBJECT_NAME},
+                    value: {presence: required, value: ManagedElement=Media}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: PROBABLE_CAUSE},
+                    value: {presence: required, value: communicationsProtocolError}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_NAME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_UUID},
+                    value: {presence: required}
+            }}
+    ]}
+    }}
+}}
+...
+---
+# registration for Fault_sbc_140CONNECTIONTOROUTERLOSTCALLSFAIL
+# Constants: the values of domain,  priority,
+#            version, faultFields.alarmCondition, faultFields.eventSeverity,
+#            faultFields.faultFieldsVersion, faultFields.specificProblem,
+# Variables (to be supplied at runtime) include: eventId, startEpochMicrosec, lastEpochMicrosec, eventName,
+#            reportingEntityId, reportingEntityName, sequence, sourceId, sourceName, faultFields.eventSourceType,
+#            faultFields.vfstatus, faultFields.alarmAdditionalInformation
+event: {presence: required,
+structure: {
+    commonEventHeader: {presence: required, structure: {
+        domain: {presence: required, value: fault},
+        eventName: {presence: required, value: Fault_sbc_140CONNECTIONTOROUTERLOSTCALLSFAIL},
+        eventId: {presence: required, value: 001-<id>},
+        priority: {presence: required, value: High},
+        reportingEntityId: {presence: required},
+        reportingEntityName: {presence: required},
+        sequence: {presence: required},
+        sourceId: {presence: optional},
+        sourceName: {presence: required},
+        nfNamingCode: {presence: optional},
+        nfcNamingCode: {presence: optional},
+        startEpochMicrosec: {presence: required},
+        lastEpochMicrosec: {presence: required},
+        version: {presence: required, value: 3.0}
+    }},
+    faultFields: {presence: required, structure: {
+        alarmCondition: {presence: required, value: "140CONNECTIONTOROUTERLOSTCALLSFAIL"},
+        eventSeverity: {presence: required, value: MAJOR},
+        eventSourceType: {presence: required, value: virtualMachine},
+        faultFieldsVersion: {presence: required, value: 2.1},
+        specificProblem: {presence: required, value: "Connection to Router lost, calls fail"},
+        vfStatus: {presence: required, value: "Active"},
+    alarmAdditionalInformation: {presence: optional, array: [
+            field: {presence: required, structure: {
+                    name: {presence: required, value: SysUpTime},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ADDITIONAL_TEXT},
+                    value: {presence: required, value: 140CONNECTIONTOROUTERLOSTCALLSFAIL}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TIME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: ALARM_TYPE},
+                    value: {presence: required, value: Communications}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: OBJECT_NAME},
+                    value: {presence: required, value: ManagedElement=Media}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: PROBABLE_CAUSE},
+                    value: {presence: required, value: communicationsProtocolError}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_NAME},
+                    value: {presence: required}
+            }},
+            field: {presence: optional, structure: {
+                    name: {presence: required, value: VM_UUID},
+                    value: {presence: required}
+            }}
+    ]}
+    }}
+}}
+...
+

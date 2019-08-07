@@ -1,0 +1,1 @@
+('JSON object #', 1, 'passes syntax checking')

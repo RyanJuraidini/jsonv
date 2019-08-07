@@ -1,0 +1,2 @@
+YAML document # 1 passes syntax checking
+YAML document # 2 passes syntax checking

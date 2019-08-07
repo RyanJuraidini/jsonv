@@ -1,0 +1,954 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oziz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-03 07:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:58
+msgid ", "
+msgstr ""
+
+#: inc/customizer-data.php:393
+msgid "1"
+msgstr ""
+
+#: inc/customizer-data.php:765
+msgid "1 Columns"
+msgstr ""
+
+#: inc/customizer-data.php:674 inc/customizer-data.php:705
+#: inc/customizer-data.php:736
+msgid "100"
+msgstr ""
+
+#: inc/customizer-data.php:394
+msgid "2"
+msgstr ""
+
+#: inc/customizer-data.php:766
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer-data.php:395
+msgid "3"
+msgstr ""
+
+#: inc/customizer-data.php:767
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer-data.php:396
+msgid "4"
+msgstr ""
+
+#: inc/customizer-data.php:768
+msgid "4 Columns"
+msgstr ""
+
+#: inc/customizer-data.php:669 inc/customizer-data.php:700
+#: inc/customizer-data.php:731
+msgid "50"
+msgstr ""
+
+#: inc/customizer-data.php:670 inc/customizer-data.php:701
+#: inc/customizer-data.php:732
+msgid "60"
+msgstr ""
+
+#: inc/customizer-data.php:671 inc/customizer-data.php:702
+#: inc/customizer-data.php:733
+msgid "70"
+msgstr ""
+
+#: inc/customizer-data.php:672 inc/customizer-data.php:703
+#: inc/customizer-data.php:734
+msgid "80"
+msgstr ""
+
+#: inc/customizer-data.php:673 inc/customizer-data.php:704
+#: inc/customizer-data.php:735
+msgid "90"
+msgstr ""
+
+#: inc/customizer-data.php:213 inc/customizer-data.php:233
+#: inc/customizer-data.php:265 inc/customizer-data.php:403
+#: inc/customizer-data.php:472 inc/customizer-data.php:538
+#: inc/customizer-data.php:595 inc/customizer-data.php:656
+#: inc/customizer-data.php:687 inc/customizer-data.php:718
+#: inc/customizer-data.php:820 inc/customizer-data.php:878
+#: inc/customizer-data.php:936 inc/customizer-data.php:994
+#: inc/customizer-data.php:1063 inc/customizer-data.php:1127
+#: inc/customizer-data.php:1231
+msgid "[live_title]"
+msgstr ""
+
+#: inc/customizer-data.php:333
+msgid "About"
+msgstr ""
+
+#: inc/customizer-data.php:310
+msgid "About Settings"
+msgstr ""
+
+#: inc/customize-controls/control-repeater.php:329
+msgid "Add"
+msgstr ""
+
+#: inc/customize-controls/control-repeater.php:196
+msgid "Add an item"
+msgstr ""
+
+#: functions.php:131
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customize-controls/control-category.php:32
+msgid "All"
+msgstr ""
+
+#: inc/customizer-data.php:800 inc/customizer-data.php:858
+#: inc/customizer-data.php:916 inc/customizer-data.php:974
+msgid "Amount"
+msgstr ""
+
+#: inc/customizer-data.php:181
+msgid "Background"
+msgstr ""
+
+#: inc/customizer-data.php:190
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer-data.php:378
+msgid "Bio Data"
+msgstr ""
+
+#: inc/customizer-data.php:402
+msgid "Bio Data List"
+msgstr ""
+
+#: inc/customizer-data.php:407
+msgid "Bio Icon"
+msgstr ""
+
+#: inc/customizer-data.php:348
+msgid "Bio Picture"
+msgstr ""
+
+#: inc/customizer-data.php:869
+msgid "BUY NOW"
+msgstr ""
+
+#: inc/customizer-data.php:1033
+msgid "Category"
+msgstr ""
+
+#: inc/customize-controls/control-repeater.php:329
+msgid "Change"
+msgstr ""
+
+#: inc/customizer-data.php:355
+msgid "Change Image"
+msgstr ""
+
+#: inc/customizer-data.php:360
+msgid "Choose Image"
+msgstr ""
+
+#: inc/customize-controls/control-repeater.php:364
+msgid "Close"
+msgstr ""
+
+#: inc/customizer-data.php:391 inc/customizer-data.php:763
+msgid "Column"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer-data.php:557
+msgid "Company"
+msgstr ""
+
+#: inc/customizer-data.php:1217
+msgid "Contact Info"
+msgstr ""
+
+#: inc/customizer-data.php:1230
+msgid "Contact List"
+msgstr ""
+
+#: inc/customizer-data.php:1195
+msgid "Contact Settings"
+msgstr ""
+
+#: inc/customizer-data.php:1253
+msgid "Contact Shortcode"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Name of the template
+#: inc/customizer-data.php:171
+msgid "Custom Homepage"
+msgstr ""
+
+#: inc/customizer-data.php:242
+msgid "Custom Link"
+msgstr ""
+
+#: inc/customizer-data.php:237
+msgid "Custom Text"
+msgstr ""
+
+#: inc/customizer-data.php:819 inc/customizer-data.php:877
+#: inc/customizer-data.php:935 inc/customizer-data.php:993
+#: inc/customizer-data.php:1062
+msgid "Data"
+msgstr ""
+
+#: inc/customizer-data.php:357
+msgid "Default"
+msgstr ""
+
+#: inc/customizer-data.php:374 inc/customizer-data.php:486
+#: inc/customizer-data.php:567 inc/customizer-data.php:624
+#: inc/customizer-data.php:1146 inc/customizer-data.php:1226
+#: inc/customizer-data.php:1262
+msgid "Description"
+msgstr ""
+
+#: inc/customizer-data.php:297
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer-data.php:174
+msgid "Dont Show"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:107 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer-data.php:574
+msgid "Education"
+msgstr ""
+
+#: inc/customizer-data.php:593
+msgid "Education List"
+msgstr ""
+
+#: inc/customizer-data.php:173
+msgid "EveryPage"
+msgstr ""
+
+#: inc/customizer-data.php:796 inc/customizer-data.php:854
+#: inc/customizer-data.php:970
+msgid "Example: $"
+msgstr ""
+
+#: inc/customizer-data.php:801
+msgid "Example: 100"
+msgstr ""
+
+#: inc/customizer-data.php:859
+msgid "Example: 200"
+msgstr ""
+
+#: inc/customizer-data.php:917
+msgid "Example: 300"
+msgstr ""
+
+#: inc/customizer-data.php:975
+msgid "Example: 400"
+msgstr ""
+
+#: inc/customizer-data.php:219
+msgid "Example: Are you looking"
+msgstr ""
+
+#: inc/customizer-data.php:611
+msgid "Example: Bachelor Degree"
+msgstr ""
+
+#: inc/customizer-data.php:811
+msgid "Example: BUY NOW"
+msgstr ""
+
+#: inc/customizer-data.php:985
+msgid "Example: Buy Now"
+msgstr ""
+
+#: inc/customizer-data.php:196
+msgid "Example: https://www.youtube.com/watch?v=nx_kW1f5W6M"
+msgstr ""
+
+#: inc/customizer-data.php:616
+msgid "Example: MIT"
+msgstr ""
+
+#: inc/customizer-data.php:806
+msgid "Example: Plan 1"
+msgstr ""
+
+#: inc/customizer-data.php:864
+msgid "Example: Plan 2"
+msgstr ""
+
+#: inc/customizer-data.php:224
+msgid "Example: Programmer"
+msgstr ""
+
+#: inc/customizer-data.php:621
+msgid "Example: USA"
+msgstr ""
+
+#: inc/customizer-data.php:239
+msgid "Example: VIEW RESUME"
+msgstr ""
+
+#: inc/customizer-data.php:518
+msgid "Experience"
+msgstr ""
+
+#: inc/customizer-data.php:537
+msgid "Experience List"
+msgstr ""
+
+#: inc/customizer-data.php:204
+msgid "false"
+msgstr ""
+
+#: inc/customizer-data.php:134
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/customizer-data.php:251
+msgid "Footer Social"
+msgstr ""
+
+#: inc/customizer-data.php:542 inc/customizer-data.php:599
+msgid "From Year"
+msgstr ""
+
+#: inc/customizer-data.php:172
+msgid "FrontPage"
+msgstr ""
+
+#: inc/customizer-data.php:170
+msgid "FrontPage and Custom"
+msgstr ""
+
+#: inc/customizer-data.php:119
+msgid "General"
+msgstr ""
+
+#: inc/customizer-data.php:609
+msgid "Grade"
+msgstr ""
+
+#: inc/customizer-data.php:230
+msgid "Home Video Button"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://wpamanuke.com"
+msgstr ""
+
+#: inc/customizer-data.php:304
+msgid "http://wpamanuke.com/oziz-wordpress-theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://wpamanuke.com/oziz-wordpress-theme/"
+msgstr ""
+
+#: inc/customizer-data.php:269 inc/customizer-data.php:481
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer-data.php:184
+msgid "Image"
+msgstr ""
+
+#: inc/customizer-data.php:384
+msgid "inside"
+msgstr ""
+
+#: inc/customizer-data.php:301
+msgid "Instruction"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customize-controls/control-repeater.php:77
+#: inc/customize-controls/control-repeater.php:212
+msgid "Item"
+msgstr ""
+
+#: inc/customizer-data.php:1235
+msgid "Label"
+msgstr ""
+
+#: inc/customizer-data.php:418
+msgid "Label 1"
+msgstr ""
+
+#: inc/customizer-data.php:428
+msgid "Label 2"
+msgstr ""
+
+#: inc/customizer-data.php:438
+msgid "Label 3"
+msgstr ""
+
+#: inc/customizer-data.php:448
+msgid "Label 4"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:90
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/customizer-data.php:665 inc/customizer-data.php:696
+#: inc/customizer-data.php:727
+msgid "Level"
+msgstr ""
+
+#: inc/customizer-data.php:279 inc/customizer-data.php:815
+#: inc/customizer-data.php:873 inc/customizer-data.php:931
+#: inc/customizer-data.php:989 inc/customizer-data.php:1245
+msgid "Link"
+msgstr ""
+
+#: inc/customizer-data.php:210
+msgid "List Text"
+msgstr ""
+
+#: inc/customizer-data.php:562 inc/customizer-data.php:619
+msgid "Location"
+msgstr ""
+
+#: inc/customizer-data.php:132
+msgid "Menu Type"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: inc/customizer-data.php:201
+msgid "Mute"
+msgstr ""
+
+#: inc/customizer-data.php:366 inc/customizer-data.php:1067
+#: inc/customizer-data.php:1136
+msgid "Name"
+msgstr ""
+
+#: inc/customizer-data.php:258 inc/customizer-data.php:288
+#: inc/customizer-data.php:317 inc/customizer-data.php:502
+#: inc/customizer-data.php:752 inc/customizer-data.php:780
+#: inc/customizer-data.php:789 inc/customizer-data.php:838
+#: inc/customizer-data.php:847 inc/customizer-data.php:896
+#: inc/customizer-data.php:905 inc/customizer-data.php:954
+#: inc/customizer-data.php:963 inc/customizer-data.php:1014
+#: inc/customizer-data.php:1047 inc/customizer-data.php:1101
+#: inc/customizer-data.php:1202
+msgid "No"
+msgstr ""
+
+#: inc/customizer-data.php:147 inc/customizer-data.php:525
+#: inc/customizer-data.php:581 inc/customizer-data.php:638
+msgid "No "
+msgstr ""
+
+#: inc/customizer-data.php:358
+msgid "No image selected"
+msgstr ""
+
+#: inc/customizer-data.php:126
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer-data.php:135
+msgid "Not Fixed"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/customizer-data.php:303
+msgid "Online Doc"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/customizer-data.php:285
+msgid "Open New Tab"
+msgstr ""
+
+#: inc/customizer-data.php:385
+msgid "outside"
+msgstr ""
+
+#. Name of the theme
+msgid "Oziz"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Oziz is a one page WordPress theme for resumes / cv. It's responsive, and "
+"based on bootstrap. It has a Custom HomePage which you can use to put video, "
+"education, experience, biography, skills, testimonials, a pricing table, and "
+"contact info. This theme is suitable as a landing page or for those of you "
+"looking for jobs by showing your skill and resume portfolio."
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:37
+msgid "Oziz WordPress Theme"
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:46
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer-data.php:1072
+msgid "Pic"
+msgstr ""
+
+#: inc/customizer-data.php:922
+msgid "Plan 3"
+msgstr ""
+
+#: inc/customizer-data.php:980
+msgid "Plan 4"
+msgstr ""
+
+#: inc/customizer-data.php:1029
+msgid "Portfolio Data"
+msgstr ""
+
+#: inc/customizer-data.php:1007
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/customizer-data.php:370 inc/customizer-data.php:382
+#: inc/customizer-data.php:552 inc/customizer-data.php:1141
+msgid "Position"
+msgstr ""
+
+#: footer.php:32
+msgid "Powered by "
+msgstr ""
+
+#: inc/customizer-data.php:745
+msgid "Pricing Settings"
+msgstr ""
+
+#: inc/customizer-data.php:773
+msgid "Pricing Table 1"
+msgstr ""
+
+#: inc/customizer-data.php:831
+msgid "Pricing Table 2"
+msgstr ""
+
+#: inc/customizer-data.php:889
+msgid "Pricing Table 3"
+msgstr ""
+
+#: inc/customizer-data.php:947
+msgid "Pricing Table 4"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary"
+msgstr ""
+
+#: template-parts/layout/menu.php:37
+msgid "Primary Menu"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer-data.php:1133
+msgid "Recommended size 300x300"
+msgstr ""
+
+#: inc/customizer-data.php:1074
+msgid "Recommended size 68x76"
+msgstr ""
+
+#: inc/customizer-data.php:356 inc/customize-controls/control-repeater.php:328
+#: inc/customize-controls/control-repeater.php:350
+#: inc/customize-controls/control-repeater.php:362
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer-data.php:495
+msgid "Resume Settings"
+msgstr ""
+
+#: inc/customizer-data.php:125
+msgid "Right"
+msgstr ""
+
+#: inc/customizer-data.php:614
+msgid "School"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Search"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer-data.php:44
+msgid "Section - About"
+msgstr ""
+
+#: inc/customizer-data.php:98
+msgid "Section - Contact"
+msgstr ""
+
+#: inc/customizer-data.php:71
+msgid "Section - Portfolio"
+msgstr ""
+
+#: inc/customizer-data.php:62
+msgid "Section - Pricing"
+msgstr ""
+
+#: inc/customizer-data.php:53
+msgid "Section - Resume"
+msgstr ""
+
+#: inc/customizer-data.php:89
+msgid "Section - Team"
+msgstr ""
+
+#: inc/customizer-data.php:80
+msgid "Section - Testimonial"
+msgstr ""
+
+#: inc/customizer-data.php:354 inc/customizer-data.php:359
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer-data.php:21
+msgid "Select page"
+msgstr ""
+
+#: inc/customizer-data.php:786 inc/customizer-data.php:788
+#: inc/customizer-data.php:844 inc/customizer-data.php:846
+#: inc/customizer-data.php:902 inc/customizer-data.php:904
+#: inc/customizer-data.php:960 inc/customizer-data.php:962
+msgid "Selected"
+msgstr ""
+
+#: inc/customizer-data.php:461
+msgid "Service"
+msgstr ""
+
+#: inc/customizer-data.php:264 inc/customizer-data.php:471
+msgid "Service List"
+msgstr ""
+
+#: inc/customizer-data.php:1266
+msgid "Shortcode Code"
+msgstr ""
+
+#: inc/customizer-data.php:144 inc/customizer-data.php:255
+#: inc/customizer-data.php:314 inc/customizer-data.php:499
+#: inc/customizer-data.php:522 inc/customizer-data.php:578
+#: inc/customizer-data.php:635 inc/customizer-data.php:749
+#: inc/customizer-data.php:777 inc/customizer-data.php:835
+#: inc/customizer-data.php:893 inc/customizer-data.php:951
+#: inc/customizer-data.php:1011 inc/customizer-data.php:1044
+#: inc/customizer-data.php:1098 inc/customizer-data.php:1199
+msgid "Show"
+msgstr ""
+
+#: inc/customizer-data.php:168
+msgid "Show On"
+msgstr ""
+
+#: functions.php:129 inc/customizer-data.php:123
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer-data.php:795 inc/customizer-data.php:853
+#: inc/customizer-data.php:911 inc/customizer-data.php:969
+msgid "Sign"
+msgstr ""
+
+#: inc/customizer-data.php:631 inc/customizer-data.php:660
+#: inc/customizer-data.php:691 inc/customizer-data.php:722
+msgid "Skill"
+msgstr ""
+
+#: inc/customizer-data.php:655
+msgid "Skill List 1"
+msgstr ""
+
+#: inc/customizer-data.php:686
+msgid "Skill List 2"
+msgstr ""
+
+#: inc/customizer-data.php:717
+msgid "Skill List 3"
+msgstr ""
+
+#: template-parts/layout/menu.php:5
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer-data.php:1151
+msgid "Social Icon 1"
+msgstr ""
+
+#: inc/customizer-data.php:1161
+msgid "Social Icon 2"
+msgstr ""
+
+#: inc/customizer-data.php:1171
+msgid "Social Icon 3"
+msgstr ""
+
+#: inc/customizer-data.php:1181
+msgid "Social Icon 4"
+msgstr ""
+
+#: inc/customizer-data.php:1156
+msgid "Social Link 1"
+msgstr ""
+
+#: inc/customizer-data.php:1166
+msgid "Social Link 2"
+msgstr ""
+
+#: inc/customizer-data.php:1176
+msgid "Social Link 3"
+msgstr ""
+
+#: inc/customizer-data.php:1186
+msgid "Social Link 4"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer-data.php:159 inc/customizer-data.php:222
+#: inc/customizer-data.php:328 inc/customizer-data.php:513
+#: inc/customizer-data.php:1025 inc/customizer-data.php:1112
+#: inc/customizer-data.php:1121 inc/customizer-data.php:1213
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer-data.php:1117
+msgid "Team Member"
+msgstr ""
+
+#: inc/customizer-data.php:1126
+msgid "Team Member List"
+msgstr ""
+
+#: inc/customizer-data.php:1094
+msgid "Team Settings"
+msgstr ""
+
+#: inc/customizer-data.php:140
+msgid "Teaser"
+msgstr ""
+
+#: inc/customizer-data.php:1077
+msgid "Testimonial"
+msgstr ""
+
+#: inc/customizer-data.php:1058
+msgid "Testimonial Data"
+msgstr ""
+
+#: inc/customizer-data.php:1040
+msgid "Testimonial Settings"
+msgstr ""
+
+#: inc/customizer-data.php:810 inc/customizer-data.php:824
+#: inc/customizer-data.php:868 inc/customizer-data.php:882
+#: inc/customizer-data.php:926 inc/customizer-data.php:940
+#: inc/customizer-data.php:984 inc/customizer-data.php:998
+#: inc/customizer-data.php:1240
+msgid "Text"
+msgstr ""
+
+#: inc/customizer-data.php:423
+msgid "Text 1"
+msgstr ""
+
+#: inc/customizer-data.php:433
+msgid "Text 2"
+msgstr ""
+
+#: inc/customizer-data.php:443
+msgid "Text 3"
+msgstr ""
+
+#: inc/customizer-data.php:453
+msgid "Text 4"
+msgstr ""
+
+#: inc/customizer-data.php:34
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer-data.php:154 inc/customizer-data.php:217
+#: inc/customizer-data.php:274 inc/customizer-data.php:323
+#: inc/customizer-data.php:337 inc/customizer-data.php:412
+#: inc/customizer-data.php:465 inc/customizer-data.php:476
+#: inc/customizer-data.php:508 inc/customizer-data.php:532
+#: inc/customizer-data.php:588 inc/customizer-data.php:645
+#: inc/customizer-data.php:758 inc/customizer-data.php:805
+#: inc/customizer-data.php:863 inc/customizer-data.php:921
+#: inc/customizer-data.php:979 inc/customizer-data.php:1020
+#: inc/customizer-data.php:1053 inc/customizer-data.php:1107
+#: inc/customizer-data.php:1208 inc/customizer-data.php:1221
+#: inc/customizer-data.php:1257
+msgid "Title"
+msgstr ""
+
+#: inc/customizer-data.php:651
+msgid "Title Skill 1"
+msgstr ""
+
+#: inc/customizer-data.php:682
+msgid "Title Skill 2"
+msgstr ""
+
+#: inc/customizer-data.php:713
+msgid "Title Skill 3"
+msgstr ""
+
+#: inc/customizer-data.php:343
+msgid "Title Sub"
+msgstr ""
+
+#: inc/customizer-data.php:547 inc/customizer-data.php:604
+msgid "To Year"
+msgstr ""
+
+#: inc/customizer-data.php:203
+msgid "true"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:49
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: inc/customizer-data.php:1267
+msgid "Use Contact Form 7 Plugin Shortcode"
+msgstr ""
+
+#: inc/customizer-data.php:1131
+msgid "User media"
+msgstr ""
+
+#: inc/customizer-data.php:164 inc/customizer-data.php:183
+msgid "Video"
+msgstr ""
+
+#: inc/customizer-data.php:1082
+msgid "Website"
+msgstr ""
+
+#: inc/customizer-data.php:1086
+msgid "Website Link"
+msgstr ""
+
+#. Author of the theme
+msgid "wpamanuke"
+msgstr ""
+
+#: inc/customizer-data.php:146 inc/customizer-data.php:257
+#: inc/customizer-data.php:287 inc/customizer-data.php:316
+#: inc/customizer-data.php:501 inc/customizer-data.php:524
+#: inc/customizer-data.php:580 inc/customizer-data.php:637
+#: inc/customizer-data.php:751 inc/customizer-data.php:779
+#: inc/customizer-data.php:837 inc/customizer-data.php:895
+#: inc/customizer-data.php:953 inc/customizer-data.php:1013
+#: inc/customizer-data.php:1046 inc/customizer-data.php:1100
+#: inc/customizer-data.php:1201
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer-data.php:194
+msgid "Youtube Video Url"
+msgstr ""

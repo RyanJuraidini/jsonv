@@ -1,0 +1,8 @@
+Only errors and warnings will be listed in output - to turn on informational messages set verbose to True
+Checking only first array item in YAML - to check all array items set checkOnlyFirstArrayItem to False
+
+Validating YAML for eventName Mfvs_Nokia_vCSCFecsf_VM against JSON schema
+
+Validating YAML for eventName Mfvs_Nokia_vCSCFecsf_VNF against JSON schema
+
+Validation of YAML documents is complete
