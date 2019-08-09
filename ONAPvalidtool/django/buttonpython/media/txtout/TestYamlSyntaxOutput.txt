@@ -1,0 +1,4 @@
+yaml.parser.ParserError: while parsing a flow mapping
+  in "/var/www/html/ONAPvalidtool/django/buttonpython/media/ryanymlfile.yml", line 9, column 8
+expected ',' or '}', but got '<scalar>'
+  in "/var/www/html/ONAPvalidtool/django/buttonpython/media/ryanymlfile.yml", line 10, column 1

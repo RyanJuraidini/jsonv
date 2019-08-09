@@ -1,0 +1,11 @@
+Only errors and warnings will be listed in output - to turn on informational messages set verbose to True
+Checking only first array item in YAML - to check all array items set checkOnlyFirstArrayItem to False
+
+Validating YAML for eventName Fault_sbc_140BACKPLANECONNECTIONDOWN against JSON schema
+Error: the value in the YAML of faulte for domain is not among the values enumerated in the JSON schema
+
+Validating YAML for eventName Fault_sbc_140BACKPLANELINKDOWNBACKUPOK against JSON schema
+
+Validating YAML for eventName Fault_sbc_140CONNECTIONTOROUTERLOSTCALLSFAIL against JSON schema
+
+Validation of YAML documents is complete
